@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rss PUBLIC "rss" "DONOVAN_XML_FOR_RSS.dtd" >
+
+<BYU_Idaho_radio>
+	<chanel>
+		<item>
+			<title> Text</title>
+			<description> text</description>
+			<link> text</link>
+			<author> text</author>
+		
+		
+		</item>
+	
+	</chanel>
+
+
+</BYU_Idaho_radio>

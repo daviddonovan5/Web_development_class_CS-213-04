@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CS 213 Week 06 Ponder and Prove</title>
+    <style type="text/css">
+	  form, pre {
+		  margin-left:20px; 
+		  font-family:Verdana, Geneva, sans-serif; 
+          padding:6px;
+          width: 550px;
+          font-size: 12;
+	      border: 1px solid rgb(0, 90, 136); 
+          border-radius: 4px;
+	  }
+	  h2 {
+		  border-bottom-style: solid;
+	  }
+	</style>
+  <script type="text/javascript" src ="validate.js"></script>
+  </head>
+  
+<body>
+    <!-- First problem: Age -->
+	<h2>#1: Age</h2>
+    <p>Please indicate your age: 0-118 years</p>
+    <form action="" id="form1">
+ 	  <div>
+            <input id="ageInput" onkeyup="validateAge(this.value, 'agePrompt')" size="3"/> <label id="agePrompt" style='color:red'> Enter Age</label>
+            
+      </div>
+      <div>
+             <input id="ageInput2" onkeyup="validateAge(this.value, 'agePrompt2')" size="3"/> <label id="agePrompt2" style='color:red'> Enter Age</label>
+      </div>
+    </form>
+    
+    <!-- Second problem: SSN -->
+	<h2>#2: SSN</h2>
+    <p>Please enter a Social Security Number: 000-00-0000</p>
+    <form action="" id="form2">
+        <div>
+             <input id="ssnInput" onkeyup="validateSsn(this.value, 'ssnPrompt')" size="11"/> <label id="ssnPrompt" style='color:red'> Enter SSN</label>
+        </div>
+        <div>
+              <input id="ssnInput2" onkeyup="validateSsn(this.value, 'ssnPrompt2')" size="11"/> <label id="ssnPrompt2" style='color:red'> Enter SSN</label>
+        </div>
+    </form>
+    
+    <!-- Third problem: Credit Card Number -->
+	<h2>#3: Credit Card Number</h2>
+    <p>Please enter a credit card number: 0000 0000 0000 0000</p>
+    <form action="" id="form3">
+      <div>
+      		 <input id="ccnInput" onkeyup="validateCredit(this.value, 'ccnPrompt')" size="19"/> <label id="ccnPrompt" style='color:red'> Enter Credit Card Number</label>
+      </div>
+      <div>
+            <input id="ccnInput2" onkeyup="validateCredit(this.value, 'ccnPrompt2')" size="19"/> <label id="ccnPrompt2" style='color:red'> Enter Credit Card Number</label>
+      </div>
+    </form>
+    
+    <!-- Fourth problem: Date -->
+	<h2>#4: Date</h2>
+    <p>Please enter a date: m/d/yyyy</p>
+    <form action="" id="form4">
+      <div>
+             <input id="dateInput" onkeyup="validateDate(this.value, 'datePrompt')" size="9"/> <label id="datePrompt" style='color:red'> Enter date</label>
+      </div>
+      <div>
+             <input id="dateInput2" onkeyup="validateDate(this.value, 'datePrompt2')" size="9"/> <label id="datePrompt2" style='color:red'> Enter date</label>
+      </div>
+    </form>
+    
+    <!-- Fifth problem: Abbreviation -->
+	<h2>#5: State Abbreviation</h2>
+    <p>Please enter a 2-letter state abbreviation</p>
+    <form action="" id="form5">
+      <div>
+              <input id="stateInput" onkeyup="validateState(this.value, 'statePrompt')" size="2"/> <label id="statePrompt" style='color:red'> Enter state abbreviation</label>
+      </div>
+      <div>
+             <input id="stateInput2" onkeyup="validateState(this.value, 'statePrompt2')" size="2"/> <label id="statePrompt2" style='color:red'> Enter state abbreviation</label>
+	  </div>
+    </form>
+
+    <!-- Sixth problem: Money  -->
+	<h2>#6: Dollar Amount</h2>
+    <p>Please enter an amount in US dollars</p>
+    <form action="" id="form6">
+      <div>
+              <input id="moneyInput" onkeyup="validateMoney(this.value, 'moneyPrompt')" size="10"/> <label id="moneyPrompt" style='color:red'> Enter a money amount</label>
+      </div>
+      <div>
+             <input id="moneyInput2" onkeyup="validateMoney(this.value, 'moneyPrompt2')" size="10"/> <label id="moneyPrompt2" style='color:red'> Enter a money amount</label>
+      </div>
+	  </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT ol (li+)>
+<!ELEMENT li (#PCDATA)>
+<!ATTLIST ol
+  type CDATA #IMPLIED>
+<!ATTLIST li
+ value CDATA #IMPLIED>

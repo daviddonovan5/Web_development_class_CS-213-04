@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT bsa (council+)>
+<!ELEMENT council (troop+)>
+<!ATTLIST council
+   name CDATA #REQUIRED>
+<!ELEMENT troop (scout+)>
+<!ATTLIST troop
+   troopNumber CDATA #REQUIRED 
+   unitName CDATA #REQUIRED>
+<!ELEMENT scout (firstName, lastName, address, phone, rank*, meritBadge*)>
+<!ELEMENT address (street, city, state)>
+<!ATTLIST rank 
+   date_earned CDATA #REQUIRED>
+<!ATTLIST meritBadge 
+   date_earned CDATA #REQUIRED>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT rank (#PCDATA)>
+<!ELEMENT meritBadge (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+   
+
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT Address (street1,street2?,city,(state|province),zip,country?)>
+<!ELEMENT street1 (#PCDATA)>
+<!ELEMENT street2 (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT province (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT Month (#PCDATA)>
+<!ELEMENT Day (#PCDATA)>
+<!ELEMENT Year (#PCDATA)>
+

@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Week 13</title>
+ 
+  <style>
+  img {
+
+    height: 180px;
+    width: 230px;
+  }
+
+
+    </style>
+ 
+  <!-- JQuery library-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+</head>
+<body>
+ 
+<h1>Demo on JQUERY</h1>
+
+<p id="format"> You can use jQuery to format Html items.  jQuery turned the writting to blue with a background of light yellow</p>
+
+<p id="changeHtml"> jQuery can also be used to change html. <em id="addWords"></em> <br></p>
+
+
+ <p id="clickP"> jQuery can also add events and functions to different elements.  For 
+ example click on this paragraph.</p> 
+
+ <p id="changeMouse"> You can also set up things for when the mouse hovers over an item. For example, hover over this text</p>
+
+<p>click on the dog image to scroll through the images</p>
+ <img src="1.jpeg" id="dog" alt="dog">
+
+
+<p id="input">
+please enter your name in the box below<br><input type="text" name="enterName" id="name">
+<button id="submit">Submit</button>
+ </p>
+
+<!-- jQuery section -->
+<script type="text/javascript">
+  $("document").ready(function(){
+
+$("#format").css({
+  "color": "blue",
+  "background": "#FFF4E1"})
+$("#addWords").css("color", "red")
+$("#addWords").html("This red text was added using jQuery")
+$("#clickP").click (function(){
+  $(this).replaceWith('You clicked the paragraph')
+});
+
+
+$("#changeMouse").hover(function() {
+    // mouseover
+    $("#changeMouse").css("color", "green");
+  }, function() {
+    // mouseout
+    $("#changeMouse").css("color", "black");
+  });
+
+
+var dogImgs = ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg"];
+ 
+  var focusImg = 1;
+ 
+  $("#dog").click(function() {
+ 
+    var image = dogImgs[focusImg];
+    focusImg++;
+    if(focusImg > 3){
+      focusImg = 0;
+    }
+  $("#dog").attr("src", image);
+});
+  
+  $(document).on("click", "#submit", function(){
+    var name = $("#name").val();
+    $(input).html("<h2>Thank you " + name + "</h2>")
+   
+ });
+
+  });
+
+</script>
+
+
+</body>
+</html>

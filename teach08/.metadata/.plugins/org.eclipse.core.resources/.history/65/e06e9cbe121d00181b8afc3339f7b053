@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rss PUBLIC "rss" "DONOVAN_XML_FOR_RSS.dtd" >
+
+<BYU-Idaho_radio>
+	<chanel name = "BYU-Idaho Devotional">
+		<item>
+			<title>BYU-Idaho RSS Feed</title>
+			<description>BYU-Idaho Center Auditorium: Devotionals are special worship 
+			services and an important setting for studying the doctrines and principles of the restored gospel. 
+			Each week, speakers and many other individuals strive to provide a meaningful experience where 
+			the Spirit can teach and enlighten us.</description>
+			<link> http://calendar.byui.edu/RSSFeeds.aspx?data=3fdei69th52sh0U8OON0aSSRcC%2b6jf%2fPw5KcZ5V1ln0%3d</link>
+			<author> Brigham Young University - Idaho</author>
+		</item>
+	</chanel>
+</BYU-Idaho_radio>

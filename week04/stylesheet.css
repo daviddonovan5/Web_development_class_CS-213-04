@@ -1,0 +1,88 @@
+body{
+	background: #D2E4F7;
+
+}
+
+#header{
+font-size: 48px;
+font-family: Garamond;
+text-shadow: 2px 2px orange;
+
+
+}
+
+#main{
+	background-color: #FAEBD7
+}
+
+#makereservation{
+	background-color: #FAEBD7;
+	box-shadow: 3px 5px grey;
+
+
+}
+.contact, .reserve{
+
+	text-align: center;
+	background-color: linen;
+	font-size: 24px;
+	margin: auto;
+
+}
+
+.table, .pic{
+	box-shadow: 3px 5px #E38F32;
+}
+
+form{
+
+	font-size: 24px;
+	font-family; arial;
+
+
+}
+
+.nameInput{
+	position: relative;
+    left: 85px;
+
+}
+.dateInput{
+	position: relative;
+    left: 10px;
+}
+
+.time{
+	position: relative;
+    left:  5px;
+}
+
+.size{
+	position: relative;
+    left: 45px;
+}
+
+input{
+box-sizing: content-box;    
+    width: 200px;
+    height: 5px;
+    padding: 10px;   
+}
+
+.submit{
+	position: relative;
+    left: 20px;
+    margin-top: 15px;
+}
+
+.goback{
+	border-style: solid;
+    border-width: 2px;
+    border-color: #E38F32;
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+    background-color: linen;
+    text-decoration: none;
+    color; black;
+}

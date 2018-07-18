@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--DOCTYPE bsa SYSTEM "bsa.dtd"-->
+<bsa>
+  <council name="Golden Empire">
+    <troop troopNumber="137" unitName="Sacramento">
+      <scout>
+        <fristName>Adam</fristName>
+        <lastName>Smith</lastName>
+        <address>
+          <street>453 Main Street</street>
+          <city>Sacramento</city>
+          <state>CA</state>
+          </address>
+        <phone>913-123-4234</phone>
+        <rank date_earned ="02/23/2018">Star</rank>
+        <rank date_earned ="06/13/2017">1stClass</rank>
+        <meritBadge date_eanred="1/23/18">Hiking</meritBadge>
+        <meritBadge date_eanred="12/23/17">Cooking</meritBadge>
+      </scout>
+    </troop>
+  </council>
+</bsa>

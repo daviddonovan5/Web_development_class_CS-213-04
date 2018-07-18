@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--DOCTYPE bsa SYSTEM "bsa.dtd"-->
+<bsa>
+<council name="Golden Empire">
+<troop troopNumber="137" unitName="Sacramento">
+<scout>
+<fristName></fristName>
+<lastName></lastName>
+<address></address>
+<phone></phone>
+<rankElements></rankElements>
+</scout>
+</troop>
+</council>
+</bsa>

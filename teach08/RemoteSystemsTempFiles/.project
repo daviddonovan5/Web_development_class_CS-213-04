@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>RemoteSystemsTempFiles</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.rse.ui.remoteSystemsTempNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>head.xml</name>
+			<type>1</type>
+			<location>/Users/daviddonovan/Desktop/CS213/teach08/RemoteSystemsTempFiles/head.dtd</location>
+		</link>
+	</linkedResources>
+</projectDescription>

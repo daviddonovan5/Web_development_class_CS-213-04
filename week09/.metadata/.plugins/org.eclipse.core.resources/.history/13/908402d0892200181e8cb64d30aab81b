@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<html>
+	<head>
+	<title>Teach 09 : Problem 1</title>
+	</head>
+	<body>
+	<xsl:template match="/classes">
+		<xsl:for-each select="class">
+		<xsl:value-of select="class"></xsl:value-of>
+		</xsl:for-each>
+	</xsl:template>
+	</body>
+	</html>
+</xsl:stylesheet>

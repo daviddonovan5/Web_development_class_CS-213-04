@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--DOCTYPE bsa SYSTEM "bsa.dtd"-->
+<bsa>
+  <council name="Golden Empire">
+    <troop troopNumber="137" unitName="Sacramento">
+      <scout>
+        <fristName>Adam</fristName>
+        <lastName>Smith</lastName>
+        <address>
+          <street>453 Main Street</street>
+          <city>Sacramento</city>
+          <state>CA</state>
+          </address>
+        <phone>913-123-4234</phone>
+        <rank date_earned ="02/23/2018">Star</rank>
+        <rank date_earned ="06/13/2017">1stClass</rank>
+        <meritBadge date_eanred="1/23/18">Hiking</meritBadge>
+        <meritBadge date_eanred="12/23/17">Cooking</meritBadge>
+      </scout>
+      <scout>
+        <fristName>Joseph</fristName>
+        <lastName>Davis</lastName>
+        <address>
+          <street>345 Center Street</street>
+          <city>Sacramento</city>
+          <state>CA</state>
+          </address>
+        <phone>913-423-4473</phone>
+        <rank date_earned ="02/12/2018">Eagle</rank>
+        <rank date_earned ="06/3/2017">Life</rank>
+        <meritBadge date_eanred="1/23/18">First-Aid</meritBadge>
+        <meritBadge date_eanred="12/23/17">Communications</meritBadge>
+      </scout>
+    </troop>
+    <troop troopNumber="558" unitName="Sacramento North">
+      <scout>
+        <fristName>Kyle</fristName>
+        <lastName>Welch</lastName>
+        <address>
+          <street>4453 Sutter Street</street>
+          <city>Sacramento</city>
+          <state>CA</state>
+          </address>
+        <phone>913-452-9985</phone>
+        <rank date_earned ="12/4/2016">Tenderfoot</rank>
+        <rank date_earned ="06/13/2017">2ndClass</rank>
+        <meritBadge date_eanred="1/23/18">Finger Printing</meritBadge>
+        <meritBadge date_eanred="12/23/17">Shotgun shooting</meritBadge>
+      </scout>
+      <scout>
+        <fristName>Clayton</fristName>
+        <lastName>Thomas</lastName>
+        <address>
+          <street>12 S Street</street>
+          <city>Sacramento</city>
+          <state>CA</state>
+          </address>
+        <phone>916-983-1123</phone>
+        <rank date_earned ="04/12/2016">Eagle</rank>
+        <rank date_earned ="06/3/2015">Life</rank>
+        <meritBadge date_eanred="1/23/18">First-Aid</meritBadge>
+        <meritBadge date_eanred="12/23/17">Cooking</meritBadge>
+      </scout>
+    </troop>
+  </council>
+  <council name="Buckey">
+    <troop troopNumber="254" unitName="Folsom">
+      <scout>
+        <fristName>Scott</fristName>
+        <lastName>Kubo</lastName>
+        <address>
+          <street>4252 Folsom Blvd</street>
+          <city>Folsom</city>
+          <state>CA</state>
+          </address>
+        <phone>913-943-3421</phone>
+        <rank date_earned ="02/23/2018">Star</rank>
+        <rank date_earned ="06/13/2017">1stClass</rank>
+        <meritBadge date_eanred="1/23/18">Family Life</meritBadge>
+        <meritBadge date_eanred="12/23/17">Small Boat sailing</meritBadge>
+      </scout>
+      <scout>
+        <fristName>Jacob</fristName>
+        <lastName>Cook</lastName>
+        <address>
+          <street>234 Bidwell Street</street>
+          <city>Folsom</city>
+          <state>CA</state>
+          </address>
+        <phone>913-536-5230</phone>
+        <rank date_earned ="01/18/2018">Eagle</rank>
+        <rank date_earned ="03/3/2017">Life</rank>
+        <meritBadge date_eanred="1/23/16">First-Aid</meritBadge>
+        <meritBadge date_eanred="12/23/16">Communications</meritBadge>
+      </scout>
+    </troop>
+    <troop troopNumber="324" unitName="Rescue">
+      <scout>
+        <fristName>David</fristName>
+        <lastName>Donovan</lastName>
+        <address>
+          <street>4453 California Street</street>
+          <city>Rescue</city>
+          <state>CA</state>
+          </address>
+        <phone>423-928-1238</phone>
+        <rank date_earned ="12/4/2017">1stClass</rank>
+        <rank date_earned ="06/13/2017">2ndClass</rank>
+        <meritBadge date_eanred="1/23/18">camping</meritBadge>
+        <meritBadge date_eanred="12/23/17">Citizenship in the World</meritBadge>
+      </scout>
+      <scout>
+        <fristName>Zachary</fristName>
+        <lastName>Money</lastName>
+        <address>
+          <street>1425 Capital Street</street>
+          <city>Rescue</city>
+          <state>CA</state>
+          </address>
+        <phone>916-983-9983</phone>
+        <rank date_earned ="08/12/2017">Eagle</rank>
+        <rank date_earned ="07/3/2016">Life</rank>
+        <meritBadge date_eanred="1/4/18">First-Aid</meritBadge>
+        <meritBadge date_eanred="6/20/17">Cooking</meritBadge>
+      </scout>
+    </troop>
+  </council>
+</bsa>
